@@ -41,11 +41,33 @@ YOUTUBE_API_KEY=your_api_key_here
 
 ## 使用方法
 
+### 方法1: ローカルで実行
+
 ```bash
 python youtube_trending_finder.py
 ```
 
 実行後、検索キーワードの入力を求められます。キーワードを入力すると、急成長している動画が一覧で表示されます。
+
+### 方法2: Google Colabで実行（Googleドライブにデプロイ）
+
+1. **Googleドライブにノートブックをアップロード**
+   - `YouTube_Trending_Finder.ipynb`ファイルをGoogleドライブにアップロード
+   - または、Googleドライブから直接ノートブックを開く
+
+2. **Google Colabで開く**
+   - ファイルを右クリック → 「アプリで開く」→「Google Colaboratory」を選択
+   - または、[Google Colab](https://colab.research.google.com/)にアクセスして、ドライブからノートブックを開く
+
+3. **実行**
+   - セルを上から順番に実行（Shift + Enter）
+   - APIキーは既に設定済みですが、必要に応じて変更してください
+   - 最後のセルで検索キーワードを変更して実行
+
+**メリット:**
+- Googleドライブから直接アクセス可能
+- 環境構築不要（Colab上で自動的にライブラリがインストールされる）
+- ブラウザからどこでも実行可能
 
 ### 実行例
 
