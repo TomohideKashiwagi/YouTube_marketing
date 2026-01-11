@@ -1,0 +1,5 @@
+# YouTube Data API v3 のAPIキー
+# https://console.cloud.google.com/ で取得してください
+# このファイルを .env にリネームして使用してください
+
+YOUTUBE_API_KEY=your_api_key_here
